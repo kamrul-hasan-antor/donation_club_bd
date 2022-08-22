@@ -13,11 +13,15 @@ p {
 .container {
   padding: 0 70px;
 }
-.container h2 {
-  font-size: 2.5rem;
-  text-transform: uppercase;
+.page_title {
   text-align: center;
   margin: 50px 0;
+  font-size: 20px;
+}
+.page_title h2 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin-bottom: 20px;
 }
 /*
 
@@ -49,6 +53,34 @@ p {
 .header_content h1 {
   font-size: 3.5rem;
   margin-bottom: 20px;
+}
+/*
+
+
+*/
+/****** DONATE SECTION STYLES ******/
+.donate_section {
+  height: 100vh;
+}
+.donate_content {
+  display: flex;
+  justify-content: space-evenly;
+}
+.donate_content div {
+  width: 150px;
+  height: 150px;
+  background-color: #f3f3f3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+#middle_amount {
+  border: 1px solid #008fff;
+}
+#middle_amount p {
+  color: #008fff;
+  font-weight: 700;
 }
 /*
 
