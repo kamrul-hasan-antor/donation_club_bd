@@ -309,23 +309,10 @@ a {
  
 */
 /****** FOOTER SECTION STYLES ******/
-.footer {
-  display: flex;
-  justify-content: space-between;
-  height: 150px;
-  margin-top: 30px;
-}
-
-.footer div {
-  width: 42%;
-}
-
-pre {
-  font-size: 1.2rem;
-}
 
 footer {
+  color: #ff5959;
   text-align: center;
+  background-color: #0b0d17;
+  padding: 30px 0;
 }
-
-/* #1D9EFF icon and border  #DCEFFF background*/
