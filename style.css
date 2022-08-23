@@ -47,7 +47,7 @@ p {
   text-align: center;
 }
 .header_content p {
-  color: white;
+  color: #cccccc;
   font-size: 1.2rem;
 }
 .header_content h1 {
@@ -60,7 +60,7 @@ p {
 */
 /****** DONATE SECTION STYLES ******/
 .donate_section {
-  height: 100vh;
+  padding-bottom: 50px;
 }
 .donate_content {
   display: flex;
@@ -96,11 +96,45 @@ p {
   text-align: center;
   font-size: 1.01rem;
 }
+
 /*
 
 
 */
-/****** cONTRIBUTE SECTION STYLES ******/
+/****** DONATE PLAN SECTION STYLES ******/
+.donate_plan_content {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 30px;
+}
+.donate_plan_content div {
+  width: 340px;
+  height: 332px;
+  text-align: center;
+  padding: 50px 30px 0;
+}
+.donate_plan_content img {
+  width: 70px;
+  margin-bottom: 20px;
+}
+.donate_plan_content p {
+  text-align: justify;
+  margin-top: 15px;
+}
+#plan_1 {
+  background-color: rgba(79, 157, 166, 0.1);
+}
+#plan_2 {
+  background-color: rgba(255, 89, 89, 0.1);
+}
+#plan_3 {
+  background-color: rgba(255, 244, 214, 1);
+}
+/*
+
+
+*/
+/****** CONTRIBUTE SECTION STYLES ******/
 .contribute_section {
   /* height: 100vh; */
   display: flex;
